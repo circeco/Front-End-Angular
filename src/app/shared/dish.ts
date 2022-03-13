@@ -8,3 +8,7 @@ export class Dish {
     'price': string;
     'description': string;
 }
+
+export class DetailsDish extends Dish {
+    'comments': object[];
+}
