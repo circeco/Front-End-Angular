@@ -7,9 +7,11 @@ import { MatListModule } from '@angular/material/list';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
+import { MatIconModule } from '@angular/material/icon'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import 'hammerjs';
 import { MenuComponent } from './menu/menu.component';
 import { DishdetailComponent } from './dishdetail/dishdetail.component';
@@ -37,6 +39,7 @@ import { ContactComponent } from './contact/contact.component';
   ],
   imports: [
     BrowserModule,
+    FontAwesomeModule,
     AppRoutingModule, 
     BrowserAnimationsModule,
     MatToolbarModule,
@@ -44,6 +47,7 @@ import { ContactComponent } from './contact/contact.component';
     MatListModule,
     MatGridListModule,
     MatCardModule,
+    MatIconModule,
     MatButtonModule,
     AppRoutingModule
   ],
