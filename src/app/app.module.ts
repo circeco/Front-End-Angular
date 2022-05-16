@@ -9,6 +9,10 @@ import { MatCardModule } from '@angular/material/card';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDialogModule } from '@angular/material/dialog';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { FormsModule } from '@angular/forms'; 
 
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { AppComponent } from './app.component';
@@ -53,8 +57,12 @@ import { LoginComponent } from './login/login.component';
     MatCardModule,
     MatIconModule,
     MatButtonModule,
+    MatFormFieldModule, 
+    MatInputModule,
+    MatCheckboxModule,
+    MatDialogModule,
     AppRoutingModule,
-    MatDialogModule
+    FormsModule
   ],
   providers: [
     DishService,
